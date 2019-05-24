@@ -5,12 +5,16 @@
 
 body {
   background-color: #333;
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 10px;
   line-height: 0.3;
 }
 
 h1 {
+  font-size: 32px;
+}
+
+h2 {
   font-size: 18px;
 }
 
@@ -19,6 +23,10 @@ h3 {
   font-weight: normal;
 }
 
+img {
+  width: 420px;
+  height: auto;
+}
 
 .location:hover {
   background-color: #B4B2B4;
@@ -49,13 +57,14 @@ h3 {
   margin: 0;
 }
 
+
 nav {
   margin: 0 auto;
   padding: 15px 0 15px 15px;
   width: 420px;
-  background-color: #000000;
+  background-color: #DFDEE0;
 }
 
-.restaurant-list {
+.linelist {
   width: 100%;
 }
